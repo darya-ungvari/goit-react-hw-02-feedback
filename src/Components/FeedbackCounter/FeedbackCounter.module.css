@@ -1,0 +1,10 @@
+.percentage {
+  font-size: 24px;
+  margin-right: 20px;
+}
+
+.positivePercentage {
+  display: block;
+  font-size: 24px;
+  font-weight: 700;
+}
