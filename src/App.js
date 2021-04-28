@@ -4,7 +4,6 @@ import './App.css';
 import ControlFeedback from './Components/ControlFeedback/ControlFeedback';
 import FeedbackCounter from './Components/FeedbackCounter/FeedbackCounter';
 import Section from './Components/Section/Section';
-import NotificationMsg from './Components/Notification message/NotificationMsg'
 
 class App extends React.Component {
 

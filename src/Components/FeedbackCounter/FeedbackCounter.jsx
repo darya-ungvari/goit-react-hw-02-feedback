@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './FeedbackCounter.module.css'
-import NotificationMsg from '../Notification message/NotificationMsg'
+import NotificationMsg from '../Notification message/NotificationMsg';
+import PropTypes from 'prop-types'
 
 const FeedbackCounter = ({ good, bad, neutral }) => {
     let totalValue = good + neutral + bad;
@@ -20,6 +21,12 @@ const FeedbackCounter = ({ good, bad, neutral }) => {
             </>
         )
     
+}
+
+FeedbackCounter.propTypes = {
+    good: PropTypes.number.isRequired,
+    neutral: PropTypes.number.isRequired,
+    bad: PropTypes.number.isRequired,
 }
 
 export default FeedbackCounter;
