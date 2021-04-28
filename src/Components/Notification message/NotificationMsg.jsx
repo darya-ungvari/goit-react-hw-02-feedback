@@ -1,5 +1,5 @@
 
-const NotificationMsg = ({ message }) => {
+const NotificationMsg = () => {
     return (
         <>
             <h2>No feedback given</h2>
